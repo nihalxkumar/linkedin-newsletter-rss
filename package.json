@@ -1,0 +1,23 @@
+{
+  "name": "linkedin-newsletter-rss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "Chris Nesbitt-Smith",
+  "license": "MIT",
+  "type": "module",
+  "jest": {
+    "testTimeout": 120000
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "wrangler": "^3.15.0"
+  }
+}
